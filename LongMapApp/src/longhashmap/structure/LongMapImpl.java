@@ -108,7 +108,6 @@ public class LongMapImpl<V> implements LongMap<V> {
                 .stream()
                 .filter(entry -> entry.getData().equals(value))
                 .findFirst().isPresent();
-
     }
 
     @Override
